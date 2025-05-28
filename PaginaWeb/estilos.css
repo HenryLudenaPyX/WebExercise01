@@ -1,0 +1,347 @@
+.general{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.barra-inicio{
+    background-color: #A3A656;
+    height: 70px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 2em
+}
+
+.barra-inicio ul{
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    text-transform: uppercase;
+    list-style-type: none;
+    display: flex;
+    gap: 2.5em;
+}
+
+.barra-inicio ul li:hover{
+    color: #FFFF00;
+    cursor: pointer;
+}
+
+.cinta-opciones-izquierda{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.barra-inicio-izq{
+    display: flex;
+    gap: 3em;
+    align-items: center;
+    justify-content: left;
+    margin-left: auto;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.logos{
+    display: flex;
+    gap: 1em;
+    align-items: center;
+    padding-right: 1em;
+}
+
+.imagen-central{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    height: 800px;
+    width: 100%;
+    background-image: url("images/main.png");
+    background-size: cover;
+    background-position: center;
+}
+
+.imagen-central #spa{
+    position: absolute;
+    top: 22%;
+    left: 10%;
+    font-size: 96px;
+    margin: 0px;
+    font-family: 'Romanesco', cursive;
+    font-weight: 400;
+}
+
+.imagen-central #descripcion{
+    position: absolute;
+    top: 35%;
+    left: 10%;
+    font-family: 'Inter', sans-serif;
+    font-weight:600;
+    font-size: 32px;
+    
+}
+
+.barra-ingreso{
+    height: 100px;
+    width: 100%;
+    background-color: #F2F6F6;
+    display: flex;
+    gap: 2em;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    text-transform: uppercase;
+}
+
+#cita{
+    display: flex;
+    gap: 1em;
+    align-items: center;
+    font-family: 'Inter', sans-serif;
+}
+
+#cita div:first-child {
+    padding-top: 3px;
+}
+
+#promocional{
+    display: flex;
+    gap: 0.3em;
+    align-items: center;
+    font-family: 'Inter', sans-serif;
+}
+
+#promocional div:first-child {
+    padding-top: 3px;
+}
+
+.barra-ingreso input{
+    width: 15em;
+    height: 40px;
+    border-radius: 10px;
+    border: 0px;
+}
+
+[placeholder="CODIGO"]{
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    color: #9E9A9A;
+    font-size: 16px;
+}
+
+.general-card{
+    display: flex;
+    gap: 134px;
+    justify-content: center;
+    padding: 100px 0px;
+}
+
+.card{
+    border-radius: 15px 15px 0px 0px;
+    background-color: #A3A656;
+    padding: 0px;
+    margin: 10px;
+    width: 300px;
+}
+
+.card img{
+    margin: 0px;
+    padding: 0px;
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.card p{
+    margin: 0px;
+    padding: 10px;
+}
+
+.title-card{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    font-weight: bolder;
+    font-size: 32px;
+    font-family: 'Inter', sans-serif;
+    color: #FFF;
+    margin: 0px;
+    padding: 0px;
+}
+
+.descripcion-card{
+    background-color: white;
+    margin: 0px;
+    padding: 0px;
+    height: 100%;
+    font-family: 'Inter', sans-serif;
+}
+
+.precio-boton-card{
+    display: flex;
+    background-color: white;
+}
+
+.precio-boton-card div:first-child{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.precio-boton-card div:last-child{
+    background-color: #A3A656;
+    padding: 0em 2em;
+    margin: 0px;
+    border-radius: 35px; 
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+}
+
+.precio-boton-card:hover div:last-child{
+    background-color: #384001;
+    cursor: pointer;
+}
+
+.precio-boton-card div:last-child a{
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #FFF;
+}
+
+.plan-general{
+    background-color: #F2F6F6;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 770px;
+    width: 100%;
+}
+
+.plan-general #titulo-beneficios{
+    display: flex;
+    text-align: start;
+    font-size: 32px;
+    font-weight: bold;
+}
+.caja-plan{
+    display: flex;
+    gap: 10em;
+    justify-content: center;
+    align-items: center;
+    margin: 0px;
+    padding: 0px;
+    justify-content: space-between;
+}
+
+.caja-plan div ul{
+    padding-top: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 0.4em;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+
+.imagen-plan{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 50%;
+    border: 8px solid black;
+    width: 255px;
+    height: 255px;
+    background-color: #FFF;
+}
+
+.imagen-plan img{
+    width: 133px;
+    height: 133px;    
+}
+
+.nombre-plan{
+    font-size: 32px;
+    text-transform: uppercase;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+}
+
+.boton-plan{
+    background-color: #A3A656;
+    border-radius: 35px;
+    padding: 1em;
+    display: flex;
+    justify-content: center;
+}
+
+.boton-plan:hover{
+    background-color: #384001;
+    cursor: pointer;
+}
+
+.boton-plan a{
+    color: #FFF;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.barra-final{
+    background-color: #384001;
+    height: 97px;
+    width: 100%;
+    color: #A3A656;
+    display: flex;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.barra-final ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    gap: 3em;
+    text-transform: uppercase;
+    flex-direction: column;
+    align-items: center;
+    flex-direction: row;
+    align-items: center;
+}
+
+.barra-final ul li:hover{
+    color: #FFFF00;
+    cursor: pointer;
+}
+
+.barra-final-izq{
+    margin-left: auto;
+    display: flex;
+    gap: 2.5em;
+    text-transform: uppercase;
+    padding-right: 30px;
+
+}
+
+
